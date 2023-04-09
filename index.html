@@ -38,18 +38,18 @@
     </dl>
 <body style>
     <div class="row">
-        <div class="image-container"><img id="D1" src="img/donut_01.png" onmouseover="this src='img/donut_03.png';" onmouseout="this.src='img/donut_01.png';" height="100" width="100"/></div>
-        <div class="image-container"><img id="D2" src="img/donut_02.png" onmouseover="this src='img/donut_03.png';" onmouseout="this.src='img/donut_02.png';" height="100" width="100"/></div>
-        <div class="image-container"><img id="D3" src="img/donut_03.png" onmouseover="this src='img/donut_01.png';" onmouseout="this.src='img/donut_03.png';" height="100" width="100"/></div>
+        <div class="image-container"><img id="d1" src="img/donut_01.png" onmouseover="this src='img/donut_03.png';" onmouseout="this.src='img/donut_01.png';" height="100" width="100"/></div>
+        <div class="image-container"><img id="d2" src="img/donut_02.png" onmouseover="this src='img/donut_03.png';" onmouseout="this.src='img/donut_02.png';" height="100" width="100"/></div>
+        <div class="image-container"><img id="d3" src="img/donut_03.png" onmouseover="this src='img/donut_01.png';" onmouseout="this.src='img/donut_03.png';" height="100" width="100"/></div>
     </div>
 <script>
     var sound1=new buzz.sound("sound/glitch1.mp3");
     var sound2=new buzz.sound("sound/glitch2.mp3");
     var sound3=new buzz.sound("sound/glitch3.mp3");
 window.onload = function(){
-                document.getElementById('D1').addEventListener('click', function () {sound1.play("sound/glitch1.mp3"); });
-                document.getElementById('D2').addEventListener('click', function () {sound2.play("sound/glitch2.mp3"); });
-                document.getElementById('D3').addEventListener('click', function () {sound3.play("sound/glitch3.mp3"); });
+                document.getElementById('d1').addEventListener('click', function () {sound1.play("sound/glitch1.mp3"); });
+                document.getElementById('d2').addEventListener('click', function () {sound2.play("sound/glitch2.mp3"); });
+                document.getElementById('d3').addEventListener('click', function () {sound3.play("sound/glitch3.mp3"); });
 }
 </script>
 </body>
